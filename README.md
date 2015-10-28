@@ -1,8 +1,9 @@
 # uPy_AudioCodec
 
-The uPy_AudioCodec is a daughterboard for the MicroPython pyboard
-containing an I2S Audio codec chip (the SSM2604 from Analog Devices)
-and a headphone amplifier (the TPA6130A2 from Texas Instruments).
+The uPy_AudioCodec is a daughterboard for the [MicroPython pyboard](http://micropython.org)
+containing:
+* The SSM2604 I2S audio codec chip from Analog Devices: [Webpage](http://www.analog.com/en/products/audio-video/audio-amplifiers/ssm2604.html), [Datasheet](http://www.analog.com/media/en/technical-documentation/data-sheets/SSM2604.pdf)
+* The TPA6130A2 headphone amplifer from Texas Instruments: [Webpage](http://www.ti.com/product/TPA6130A2), [Datasheet](http://www.ti.com/lit/ds/symlink/tpa6130a2.pdf)
 
 This repository contains the design files for the board along with
 code to use it with MicroPython.
@@ -28,10 +29,9 @@ port in the 'X' position (SPI1) does not support I2S.
 
 
 Use DFU to load I2S supporting uPy firmware to pyboard:
-firmware/i2s-firmware.dfu
+[prebuilt firmware image in firmware/i2s-firmware.dfu](firmware/i2s-firmware.dfu)
 
-(I will do my best to keep this firmware image up to date with the
-`i2s` branch of github.com/blmorris/micropython)
+Until I2S support is merged into master at (http://github.com/micropython/micropython) I will occasionally update the I2S firmware image to track my [micropython i2s branch](https://github.com/blmorris/micropython/tree/i2s)
 
 The following code is a very quick-and-dirty way to initialize the
 AudioCodec board in python - I will clean this up soon!:
