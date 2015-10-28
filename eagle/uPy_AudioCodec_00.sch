@@ -7636,8 +7636,8 @@ by exp-lbrs.ulp</description>
 <part name="C9" library="rcl" deviceset="C-US" device="C0805K" value="10uF"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="C14" library="rcl" deviceset="C-US" device="C0603K" value="220pF"/>
-<part name="C17" library="rcl" deviceset="C-US" device="C0603K" value="220pF"/>
+<part name="C14" library="rcl" deviceset="C-US" device="C0603K" value="150pF"/>
+<part name="C17" library="rcl" deviceset="C-US" device="C0603K" value="150pF"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0805" value="4.99K"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="R0805" value="4.99K"/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
@@ -7648,8 +7648,8 @@ by exp-lbrs.ulp</description>
 <part name="C19" library="rcl" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0805" value="4.99K"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0805" value="4.99K"/>
-<part name="C20" library="rcl" deviceset="C-US" device="C0603K" value="220pF"/>
-<part name="C21" library="rcl" deviceset="C-US" device="C0603K" value="220pF"/>
+<part name="C20" library="rcl" deviceset="C-US" device="C0603K" value="150pF"/>
+<part name="C21" library="rcl" deviceset="C-US" device="C0603K" value="150pF"/>
 <part name="L2" library="rcl" deviceset="L-US" device="L3216C"/>
 <part name="L3" library="rcl" deviceset="L-US" device="L3216C"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>

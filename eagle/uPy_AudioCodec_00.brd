@@ -911,11 +911,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="14.25" y="13" size="1.016" layer="25" rot="R90"/>
 <attribute name="VALUE" x="15.65" y="10" size="1.016" layer="27" rot="R90"/>
 </element>
-<element name="C14" library="rcl" package="C0603K" value="220pF" x="7.125" y="16.5" smashed="yes" rot="R180">
+<element name="C14" library="rcl" package="C0603K" value="150pF" x="7.125" y="16.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="5.5" y="15.5" size="1.016" layer="25" rot="R90"/>
 <attribute name="VALUE" x="7.925" y="18.15" size="1.016" layer="27" rot="R180"/>
 </element>
-<element name="C17" library="rcl" package="C0603K" value="220pF" x="7.125" y="18.25" smashed="yes" rot="R180">
+<element name="C17" library="rcl" package="C0603K" value="150pF" x="7.125" y="18.25" smashed="yes" rot="R180">
 <attribute name="NAME" x="6" y="19" size="1.016" layer="25"/>
 <attribute name="VALUE" x="7.925" y="19.9" size="1.016" layer="27" rot="R180"/>
 </element>
@@ -947,11 +947,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="19" y="6" size="1.016" layer="25"/>
 <attribute name="VALUE" x="22.29" y="3.415" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C20" library="rcl" package="C0603K" value="220pF" x="24.25" y="3.625" smashed="yes" rot="R270">
+<element name="C20" library="rcl" package="C0603K" value="150pF" x="24.25" y="3.625" smashed="yes" rot="R270">
 <attribute name="NAME" x="25" y="5" size="1.016" layer="25" rot="R270"/>
 <attribute name="VALUE" x="22.6" y="4.425" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="C21" library="rcl" package="C0603K" value="220pF" x="21.75" y="3.625" smashed="yes" rot="R270">
+<element name="C21" library="rcl" package="C0603K" value="150pF" x="21.75" y="3.625" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.5" y="5" size="1.016" layer="25" rot="R270"/>
 <attribute name="VALUE" x="20.1" y="4.425" size="1.016" layer="27" rot="R270"/>
 </element>
