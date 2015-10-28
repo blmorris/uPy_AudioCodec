@@ -31,7 +31,7 @@ port in the 'X' position (SPI1) does not support I2S.
 Use DFU to load I2S supporting uPy firmware to pyboard:
 [prebuilt firmware image in firmware/i2s-firmware.dfu](firmware/i2s-firmware.dfu)
 
-Until I2S support is merged into master at (http://github.com/micropython/micropython) I will occasionally update the I2S firmware image to track my [micropython i2s branch](https://github.com/blmorris/micropython/tree/i2s)
+Until I2S support is merged into master at http://github.com/micropython/micropython I will occasionally update the I2S firmware image to track my [micropython i2s branch](https://github.com/blmorris/micropython/tree/i2s)
 
 The following code is a very quick-and-dirty way to initialize the
 AudioCodec board in python - I will clean this up soon!:
