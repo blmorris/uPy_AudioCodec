@@ -162,3 +162,9 @@ codec.i2s.stream_out(f1)
 codec.i2s.stop('stream_out')
 codec.i2s.stop('stream_in')
 codec.i2s.stop()
+
+
+def cbk(self):
+    print('Callback!')
+
+codec.i2s.callback(cbk)

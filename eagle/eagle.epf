@@ -339,12 +339,6 @@ UsedLibrary="/Applications/EAGLE-6.0.0/lbr/zilog.lbr"
 UsedLibrary="uPy_AudioCodec_00.lbr"
 
 [Win_1]
-Type="Control Panel"
-Loc="290 30 1148 589"
-State=2
-Number=0
-
-[Win_2]
 Type="Library Editor"
 Loc="360 248 959 647"
 State=2
@@ -391,7 +385,7 @@ PadsSameType=0
 Layer=94
 Device="TSW-104-02-S-S"
 
-[Win_3]
+[Win_2]
 Type="Schematic Editor"
 Loc="12 50 1439 895"
 State=1
@@ -439,7 +433,7 @@ Layer=97
 Views=" 1: 11.4357 48.7092 97.8943 122.182"
 Sheet=1
 
-[Win_4]
+[Win_3]
 Type="Board Editor"
 Loc="31 60 1439 895"
 State=1
@@ -484,6 +478,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=1
+
+[Win_4]
+Type="Control Panel"
+Loc="360 248 1209 766"
+State=2
+Number=0
 
 [Desktop]
 Screen="1440 900"
